@@ -22,6 +22,7 @@ header {
     padding: 10px;
     margin: auto;
     width: 75%;
+    padding-bottom: 35px;
 }
 
 #sub-title {
@@ -69,7 +70,29 @@ nav {
     font-size: 18px;
     color: #e5e7eb;
     justify-content: flex-end;
+}
+
+#add-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 3000;
+    background-color: yellow;
+}
+
+#subheader button{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid #1f2937;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
-
+#subheader button:hover {
+background-color: red;
 }
