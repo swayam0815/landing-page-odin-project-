@@ -9,13 +9,38 @@ body {
 
 header {
     background-color: #1f2937;
+    border: solid 1px white;
+
+
 
 }
 
 #subheader {
     display: flex;
-    width: 70%;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px;
     margin: auto;
+    width: 80%;
+    border: solid 1px white;
+}
+
+#sub-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#sub-title p, #sub-title h1{
+    margin: 0;
+}
+
+#sub-title p{
 }
 
 nav {
@@ -25,6 +50,7 @@ nav {
     padding: 10px;
     margin: auto;
     width: 80%;
+    border: solid 1px white;
 
 }
 
@@ -36,15 +62,18 @@ nav {
     color: #f9faf8;
     font-weight: bold;
     width: 30%;
+    border: solid 1px white;
+
 }
 
 #links {
     display: flex;
     gap: 10px;
     align-items: center;
-    width: 30%;
     font-size: 18px;
     color: #e5e7eb;
+        border: solid 1px white;
+
 
 
 }
