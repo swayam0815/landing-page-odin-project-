@@ -17,7 +17,6 @@ header {
 
 #subheader {
     display: flex;
-    background-color: #1f2937;
     justify-content: space-between;
     padding: 10px;
     margin: auto;
@@ -28,7 +27,6 @@ header {
 #sub-title {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     color: #f9faf8;
     font-weight: bold;
     width: 30%;
@@ -56,20 +54,25 @@ nav {
 #logo {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+#logo img{
+    width: 100px;
+    height: auto;
 
 }
 
 #links {
     display: flex;
     gap: 10px;
-    align-items: center;
     font-size: 18px;
     color: #e5e7eb;
     justify-content: flex-end;
+    vertical-align: center;
 }
 
 #add-image{
@@ -95,4 +98,51 @@ nav {
 
 #subheader button:hover {
 background-color: red;
+}
+
+#body{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    flex-direction: column;
+}
+
+#body h1{
+    color: black;
+}
+
+#rects{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.round-rect{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    border: solid 5px #3882F6;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: auto;
+}
+
+.subtext p{
+    color: rgb(160, 159, 159);
+    text-align: center;
 }
