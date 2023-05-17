@@ -4,12 +4,12 @@ body {
 
 * {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 header {
     background-color: #1f2937;
-    border: solid 1px white;
 
 
 
@@ -21,14 +21,13 @@ header {
     justify-content: space-between;
     padding: 10px;
     margin: auto;
-    width: 80%;
-    border: solid 1px white;
+    width: 75%;
 }
 
-#sub-title{
+#sub-title {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: #f9faf8;
     font-weight: bold;
     width: 30%;
@@ -36,33 +35,29 @@ header {
     gap: 20px;
 }
 
-#sub-title p, #sub-title h1{
+#sub-title p,
+#sub-title h1 {
     margin: 0;
 }
 
-#sub-title p{
-}
 
 nav {
     display: flex;
-    background-color: #1f2937;
     justify-content: space-between;
-    padding: 10px;
+    align-items: baseline;
+    padding: 20px;
     margin: auto;
-    width: 80%;
-    border: solid 1px white;
+    width: 75%;
 
 }
 
 #logo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
-    width: 30%;
-    border: solid 1px white;
+    font-weight: 900;
 
 }
 
@@ -72,7 +67,7 @@ nav {
     align-items: center;
     font-size: 18px;
     color: #e5e7eb;
-        border: solid 1px white;
+    justify-content: flex-end;
 
 
 
