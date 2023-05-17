@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+
+header {
+    background-color: #1f2937;
+
+}
+
+#subheader {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 30%;
+}
+
+#links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 30%;
+    font-size: 18px;
+    color: #e5e7eb;
+
+
+}
