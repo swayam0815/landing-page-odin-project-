@@ -1,8 +1,7 @@
 
 * {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
+    color: black;
+    font-family: 'Bruno Ace SC', cursive;}
 
 
 body {
@@ -19,8 +18,16 @@ header{
     justify-content: space-between;
     padding: 10px;
     margin: auto;
-    width: 75%;
+    width: 60%;
     padding-bottom: 35px;
+}
+
+
+#add-image img{
+    border: 10px solid black;
+    border-radius: 8px;
+    width: 450px;
+    height: auto;
 }
 
 #sub-title {
@@ -30,7 +37,6 @@ header{
     width: 30%;
     flex-direction: column;
     gap: 20px;
-    text-align: justify;
     font-weight: semibold;
 }
 
@@ -39,6 +45,9 @@ header{
     margin: 0;
 }
 
+#sub-title p {
+    font-size: 18px;
+}
 
 nav {
     display: flex;
@@ -46,7 +55,7 @@ nav {
     align-items: center;
     padding: 20px;
     margin: auto;
-    width: 75%;
+    width: 60%;
     padding-bottom: 35px;
 
 }
@@ -60,7 +69,7 @@ nav a:hover {
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 24px;
-    color: white;
+    color: black;
     font-weight: 900;
 }
 
@@ -74,28 +83,27 @@ nav a:hover {
     display: flex;
     gap: 10px;
     font-size: 18px;
-    color: #e5e7eb;
+    color: black;
     justify-content: flex-end;
     vertical-align: center;
 }
 
-#add-image{
+#add-image image{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 45%;
-    height: 3000;
-    background-color: lightblue;
+    height: auto;
 }
 
 #subheader button{
     display: flex;
     background-color: #74e115;
     border-radius: 8px;
-    border: 5px solid #1f2937;
+    border: 5px solid black;
     font-size: 20px;
     padding: 5px;
-    width: 120px;
+    width: 200px;
     color: black;
     justify-content: center;
     vertical-align: center;
@@ -116,6 +124,7 @@ background-color: #E6EB08;
     flex-direction: column;
     border: 5px solid black;
     border-top: 0px;
+    border-bottom: 0px;
 
 }
 
@@ -131,6 +140,7 @@ background-color: #E6EB08;
     gap: 50px;
     justify-content: center;
     align-items: start;
+
 }
 
 .round-rect{
@@ -169,4 +179,101 @@ background-color: #E6EB08;
 
 button a, button a:visited{
     text-decoration: none;
+}
+
+
+#quotes{
+    border: 5px solid #000;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0;
+}
+
+#quotes p{
+    display: flex;
+}
+
+#text{
+     font-style: bold;
+     justify-content: center;
+    align-items: center;
+     font-size: 46px;
+     margin-bottom: 0px;
+
+}
+
+#author{
+    font-size: 35px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+}
+
+
+#action{
+    border: solid 5px black;
+    background-color: #009900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+#action a{
+    display: flex;
+    background-color: #74e115;
+    border-radius: 8px;
+    border: 5px solid black;
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    color: black;
+    justify-content: center;
+    vertical-align: center;
+    height: auto;
+    text-decoration: none;
+    width: 150px;
+    height: 25px;
+
+}
+
+#action a:hover {
+background-color: #E6EB08;
+}
+
+
+#action texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#extra{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px black;
+padding: 50px
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:35px;
+    font-size: 20px;
+    border: solid 5px black;
+    border-top: 0px;
+    font-weight: bold;
 }
