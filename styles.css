@@ -9,7 +9,7 @@ body {
 
 
 header {
-    background-color: #1f2937;
+    background-color: #009900 ;
 
 
 
@@ -43,12 +43,16 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 20px;
     margin: auto;
     width: 75%;
     padding-bottom: 70px;
 
+}
+
+nav a:hover {
+    color: yellow;
 }
 
 #logo {
@@ -81,7 +85,7 @@ nav {
     align-items: center;
     width: 45%;
     height: 3000;
-    background-color: yellow;
+    background-color: lightblue;
 }
 
 #subheader button{
@@ -91,8 +95,9 @@ nav {
     border: 2px solid #1f2937;
     font-size: 20px;
     padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 120px;
+    justify-content: center;
+    vertical-align: center;
 }
 
 
