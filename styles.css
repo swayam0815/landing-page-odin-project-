@@ -6,6 +6,8 @@
 
 body {
     background-color: #009900 ;
+        border: 5px solid black;
+
 }
 
 header{
@@ -277,3 +279,12 @@ footer{
     border-top: 0px;
     font-weight: bold;
 }
+
+
+::-webkit-scrollbar {
+    width: 0px; /* Width of the entire scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #009900; /* Color of the scrollbar */
+  }
